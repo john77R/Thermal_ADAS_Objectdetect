@@ -1,0 +1,24 @@
+# FLIR ADASv2 US-Euro dataset 
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+# path: /gdrive/MyDrive/yolo/data/thermal
+train: /gdrive/MyDrive/yolo/data/thermal/images/train_thermal_images  # 10742 images
+val: /gdrive/MyDrive/yolo/data/thermal/images/test_thermal_images  # 1144 images
+test: /gdrive/MyDrive/yolo/data/thermal/images/val_thermal_images  # 3749 images
+
+# number of classes
+nc: 11
+
+# class names
+names: 
+  0: person
+  1: bike
+  2: car
+  3: motor
+  4: bus
+  5: train
+  6: truck
+  7: light
+  8: dog
+  9: scooter
+  10: other vehicle
